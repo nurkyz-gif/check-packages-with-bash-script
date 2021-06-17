@@ -7,11 +7,16 @@ otherwise all packages were checked manually. If one of the packages is not inst
 To use this script use this link bellow please:
 "https://github.com/stoktobekova/check-packages-with-bash-script.git"
 
+### To run this command, type the following command:
+bash check-packages.sh
+
 This script used to check the following packages in the bastion host: packer, terraform, kubectl, docker-compose, docker, helm, python3, tree, curl, wget, java, groovy,  waypoint, nslookup. 
 The output of bash script commnad should look similar to this: 
 $ packer is installed
 $ terraform is installed
 $ kubectl is not installed if kubectl is not installed etc.
+
+
 
 Special thanks to Farhod!
 ```
